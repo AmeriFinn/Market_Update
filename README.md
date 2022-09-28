@@ -1,7 +1,7 @@
 # Weekly_Market_Report
 The python scripts I use to create and publish a [financial markets update](https://cloud.datapane.com/reports/yklX1Qk/financial-markets-update/) on different financial assets such as the three major U.S. indexes, currencies, commodoties, bitcoin, and the U.S. Yield Curve.
 
-Each page of the report covers a different asset and each page consists of a price chart, closing price quartiles over the past two years, holding period return data, and an index of artciles that have been scraped from Google News which have been deemed to be the most relevant articles for an asset. From the article index, the scripts will generate a text summary of the relevant articles in an attempt to summarize what has happened to the asset over the past few days.
+Each page of the report covers a different asset and each page consists of a price chart, closing price quartiles over the past two years, holding period return data, and an index of articles that have been scraped from Google News which have been deemed to be the most relevant articles for an asset. From the article index, the scripts will generate a text summary of the relevant articles in an attempt to summarize what has happened to the asset over the past few days.
 
 The main scripts used to collect and summarize the price data are `EquityAnalysis.py`, `equity_plot.py`, and `yield_plot.py`. `EquityAnalysis.py` is a large script I wrote a couple years ago to collect asset prices and perform different calculations/analyses on an automated basis - however this script has not been revisited in some time...
 
