@@ -15,7 +15,7 @@ If all files in the lib are saved to the same directory, the report can be made 
 - Continue tweaking/improving the scoring methods for articles in a Google News search. Ideally find a more algorithimic approach. `my_weekly_articles.py`
 
 ## Low-priority to-do items
-- Update the Bloomberg scraping dictionar / figure out a reliable way to scrape these articles. `my_weekly_articles.py`
+- Update the Bloomberg scraping dictionary / figure out a reliable way to scrape these articles. `my_weekly_articles.py`
 - Accurately collect publishing dates for articles that are hidden under a collapsed banner on the Google News page. `my_weekly_articles.py`
 - Move the MACD overlaid chart to its own plot that is also linked to the dateslider. `equity_plot.py`
 - Continue tweaking the datapane layout to improve readability on smaller monitors `dp_post.py`
