@@ -7,6 +7,8 @@ The main scripts used to collect and summarize the price data are `EquityAnalysi
 
 The main script used to index, scrape, and summarize news articles is `my_weekly_articles.py`. It is the lengthiest script in the directory and has been the main development focus area.
 
+If all files in the lib are saved to the same directory, the report can be made by executing the `Report_Master.py` script.
+
 ## High-priority to-do items
 - Ensure no duplicate sentences are included in the article summaries. `my_weekly_articles.py`
 - Refine scraping methods for websites/publishers which I have not made a scraping dictionary for in `mwr_utils.py`
